@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class CollegeService {
-  API="http://localhost:8080";
+  API="http://localhost//Abinaya:8080";
   public registerCollege(collegeData: any)
   {
     return this.http.post(`${this.API}/collegeservice` , collegeData);
